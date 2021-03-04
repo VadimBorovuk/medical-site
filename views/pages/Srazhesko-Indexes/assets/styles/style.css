@@ -127,6 +127,10 @@
     text-align: right;
 }
 
+.footer-item-contacts .item-logo img {
+    max-width: 100%;
+}
+
 /*second path*/
 
 .preparation .content__indexes-line,

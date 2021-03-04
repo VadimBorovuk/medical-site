@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="349acbf2-080d-46b7-93a8-3e8006e22d29" name="Default Changelist" comment="" />
+    <list default="true" id="349acbf2-080d-46b7-93a8-3e8006e22d29" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/servier-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/servier-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Srazhesko-Indexes/assets/styles/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/Srazhesko-Indexes/assets/styles/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Srazhesko-Indexes/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/Srazhesko-Indexes/assets/styles/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +15,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iuBgOHfqU5VQlm1B8fq2OveYWi" />
   <component name="ProjectViewState">
@@ -96,7 +105,8 @@
       <workItem from="1611666722125" duration="882000" />
       <workItem from="1611668637552" duration="7088000" />
       <workItem from="1614859431271" duration="6133000" />
-      <workItem from="1614866107414" duration="303000" />
+      <workItem from="1614866107414" duration="587000" />
+      <workItem from="1614868193496" duration="648000" />
     </task>
     <servers />
   </component>
@@ -112,10 +122,10 @@
       <screen x="1366" y="-311" width="1920" height="1040" />
     </state>
     <state x="1827" y="-146" key="SettingsEditor/1366.-311.1920.1040/0.0.1366.728@1366.-311.1920.1040" timestamp="1607522934250" />
-    <state x="1661" y="-237" width="1546" height="923" key="find.popup" timestamp="1614865190755">
+    <state x="1661" y="-237" width="1546" height="923" key="find.popup" timestamp="1614868845085">
       <screen x="1366" y="-311" width="1920" height="1040" />
     </state>
-    <state x="1661" y="-237" width="1546" height="923" key="find.popup/1366.-311.1920.1040/0.0.1366.728@1366.-311.1920.1040" timestamp="1614865190755" />
+    <state x="1661" y="-237" width="1546" height="923" key="find.popup/1366.-311.1920.1040/0.0.1366.728@1366.-311.1920.1040" timestamp="1614868845085" />
     <state x="1897" y="-102" width="840" height="858" key="run.anything.popup" timestamp="1610960575364">
       <screen x="1366" y="-311" width="1920" height="1040" />
     </state>
