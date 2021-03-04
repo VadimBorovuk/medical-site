@@ -1,0 +1,262 @@
+.conditions-page .general__nav {
+    padding-bottom: 0;
+}
+
+.content__conditions {
+    padding: 30px 0;
+}
+
+
+/*Hipers*/
+
+.hipers-path-items {
+    width: 100%;
+}
+#hipers{
+    background: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 15px 30px;
+}
+#infarct{
+    background: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 15px 30px;
+}
+#stroke{
+    background: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    padding: 15px 30px;
+}
+
+.hipers-path-items .hipers-path-item,
+.stroke-path-items .stroke-path-item {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.hipers-path-items .hipers-path-item{
+    align-items: stretch;
+}
+
+.stroke-path-items .stroke-path-item{
+    align-items: center;
+}
+
+.hipers-path-item .path-item-logo,
+.stroke-path-item .path-item-logo {
+    background-size: cover;
+    height: 136px;
+    width: 136px;
+    margin: 0 auto;
+}
+
+.hipers-path-item .path-item-logo.hipers-tablets {
+    background: url("../img/hipers-tablets.png") no-repeat center;
+}
+
+.hipers-path-item .path-item-logo.hipers-warn {
+    background: url("../img/hipers-warn.png") no-repeat center;
+}
+
+.hipers-path-item .path-item-logo.hipers-lists {
+    background: url("../img/hipers-lists.png") no-repeat center;
+}
+
+
+.hipers-path-item .path-item-info .path-item-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.hipers-path-item .path-item-info .path-item-text {
+    position: relative;
+    color: var(--mainContent);
+    background: rgba(11, 67, 78, .2);
+    width: 100%;
+    padding: 15px 0 15px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+
+.hipers-path-item .path-item-info .path-item-text:hover {
+    background: rgba(11, 67, 78, .4);
+}
+
+.hipers-path-item .path-item-info .path-item-text:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: var(--mainContent);
+    top: 0;
+    left: 0;
+}
+
+.content__conditions-footer {
+    margin-top: 30px;
+}
+
+.conditions-footer-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conditions-footer-item {
+    font-size: 14px;
+}
+
+.conditions-footer-item .item-logo {
+    text-align: right;
+}
+
+
+.conditions-footer-item .footer-item-title {
+    margin-top: 15px;
+}
+
+.conditions-footer-item .footer-item-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+
+/*infarct*/
+
+.infarct-path-items,
+.stroke-path-items {
+    width: 100%;
+}
+
+.infarct-path-items.justdo {
+    padding-bottom: 20px;
+}
+
+
+.infarct-path-items.symptoms .symptoms-title,
+.infarct-path-items.justdo .symptoms-title,
+.stroke-path-items.symptoms .stroke-title,
+.stroke-path-items.signs .stroke-title {
+    background: var(--mainContent);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0;
+    margin: 10px 0;
+}
+
+.infarct-path-items.symptoms .symptoms-title span,
+.infarct-path-items.justdo .symptoms-title span,
+.stroke-path-items.symptoms .stroke-title span,
+.stroke-path-items.signs .stroke-title span {
+    color: #77c7dd;
+}
+
+.infarct-path-items .infarct-path-item {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.infarct-path-item .path-item-logo {
+    background-size: cover;
+    width: 166px;
+    height: 255px;
+    margin: 0 auto;
+}
+
+.infarct-path-item .path-item-logo.infarct-heart {
+    background: url("../img/infarct-heart.png") no-repeat center;
+}
+
+.infarct-path-item .path-item-logo.infarct-throat {
+    background: url("../img/infarct-throat.png") no-repeat center;
+}
+
+.infarct-path-item .path-item-logo.infarct-cough {
+    background: url("../img/infarct-cough.png") no-repeat center;
+}
+
+.infarct-path-item .path-item-info .path-item-title,
+.stroke-path-item .path-item-info .path-item-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--mainContent);
+}
+
+.infarct-path-item .path-item-info .path-item-text {
+    font-size: 20px;
+}
+
+.infarct-path-item .path-item-logo.justdo {
+    background: url("../img/time-mobile.png") no-repeat center;
+    background-size: cover;
+    width: 176px;
+    height: 200px;
+}
+
+/*stroke*/
+
+.stroke-path-items .stroke-path-lists {
+    list-style-type: none;
+    padding: 10px 0 10px 20px;
+}
+
+.stroke-path-items .stroke-path-list {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin: 10px 0;
+}
+
+.stroke-path-items .stroke-path-list:after {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: #77c7dd;
+    top: 7px;
+    left: -20px;
+}
+
+/*stroke logos*/
+
+.stroke-path-item .path-item-logo.face {
+    background: url("../img/stroke-face.png") no-repeat center;
+}
+
+.stroke-path-item .path-item-logo.hands {
+    background: url("../img/stroke-hadns.png") no-repeat center;
+}
+
+.stroke-path-item .path-item-logo.mouse {
+    background: url("../img/stroke-mouse.png") no-repeat center;
+}
+
+.stroke-path-item .path-item-logo.timer {
+    background: url("../img/stroke-timer.png") no-repeat center;
+}
+
+.stroke-path-item .path-item-info .path-item-text{
+    font-size: 22px;
+}
+
+.stroke-path-item.timer-block{
+    background: #ddf2ff;
+    padding: 10px 0;
+}

@@ -1,0 +1,99 @@
+.healthy-page .general__nav {
+    padding-bottom: 0;
+}
+
+.content__healthy-info {
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.content__healthy-info:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("../img/table.png") no-repeat center;
+    background-size: cover;
+    width: 747px;
+    height: 747px;
+}
+
+
+.healthy-path-item .path-item-logo {
+    height: 135px;
+    width: 135px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.healthy-path-item .path-item-logo.oil {
+    background: url("../img/oil.png") no-repeat center;
+}
+
+.healthy-path-item .path-item-logo.cup {
+    background: url("../img/cup.png") no-repeat center;
+}
+
+.healthy-path-schema {
+    margin-top: 40px;
+}
+
+.healthy-path-schema .path-schema-item {
+    margin-top: 30px;
+}
+
+.path-schema-item .schema-item-title {
+    font-size: 28px;
+    color: #4072b7;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.path-schema-item .schema-item-text {
+    font-size: 22px;
+}
+
+.healthy-path-items .healthy-path-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.healthy-path-item .path-item-info .path-item-text {
+    font-size: 20px;
+}
+
+
+/*footer*/
+.healthy-footer-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+
+.healthy-footer-item {
+    font-size: 14px;
+}
+
+.healthy-footer-item .item-logo {
+    text-align: right;
+}
+
+
+.healthy-footer-item .footer-item-title {
+    margin-top: 15px;
+}
+
+
+.healthy-footer-item .footer-item-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+

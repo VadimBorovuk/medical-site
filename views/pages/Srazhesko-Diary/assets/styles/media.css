@@ -1,0 +1,87 @@
+@media screen and (max-width: 1399px) {
+    .content__pressure .content__pressure-image {
+        min-height: 690px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .content__pressure-info .pressure-info-link:hover {
+        box-shadow: none;
+    }
+
+    .content__pressure .content__pressure-image {
+        min-height: 605px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .content-title-main .diary-text {
+        font-size: 16px;
+    }
+
+    .content__pressure .content__pressure-image {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content__diary {
+        padding: 0;
+    }
+
+    .content-title-main .diary-text {
+        font-size: 14px;
+    }
+
+    .content__diary-info tr {
+        height: 30px;
+    }
+
+    .content__diary-info th, td,
+    .content__diary-info td {
+        font-size: 10px;
+    }
+
+    .pressure-upper-lists .pressure-upper-list,
+    .pressure-info-important .info-important-list,
+    .pressure-info-high .info-high-list {
+        font-size: 14px;
+    }
+
+    .pressure-info-important .info-important-line,
+    .info-table-body .table-body-title,
+    .pressure-info-high .info-high-title {
+        font-size: 16px;
+    }
+
+    .content__pressure .afterBox:after {
+        height: 8px;
+        width: 8px;
+        left: -13px;
+    }
+
+    .info-table-body .table-body-text,
+    .info-table-body .table-body-desc {
+        font-size: 14px;
+    }
+
+    .table-body-view table, .table-body-view th, .table-body-view tr, .table-body-view td {
+        font-size: 10px;
+    }
+
+    .content__pressure-info .pressure-info-link {
+        font-size: 15px;
+    }
+
+    .content__pressure .content__pressure-image {
+        min-height: 345px;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .content__pressure .content__pressure-image {
+        min-height: 194px;
+    }
+}

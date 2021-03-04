@@ -1,0 +1,97 @@
+@media screen and (max-width: 991px) {
+
+    .hipers-path-item .path-item-info .path-item-title,
+    .stroke-path-item .path-item-info .path-item-title {
+        font-size: 24px;
+    }
+
+    .hipers-path-item .path-item-info .path-item-text,
+    .stroke-path-item .path-item-info .path-item-text {
+        font-size: 18px;
+    }
+
+    .conditions-footer-item.conditions-first {
+        margin-bottom: 20px;
+    }
+
+    .conditions-footer-items .item-logo {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .infarct-path-items.symptoms .symptoms-title,
+    .infarct-path-items.justdo .symptoms-title,
+    .stroke-path-items.symptoms .stroke-title,
+    .stroke-path-items.signs .stroke-title {
+        font-size: 22px;
+    }
+
+    .symptoms .path-item-info {
+        text-align: center;
+    }
+
+    .infarct-path-item .path-item-info .path-item-title {
+        font-size: 22px;
+    }
+
+    .infarct-path-item .path-item-info .path-item-text {
+        font-size: 18px;
+    }
+
+    .infarct-path-item .path-item-info,
+    .stroke-path-item .path-item-info {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .content__conditions br {
+        display: none;
+    }
+
+    .content__conditions-title {
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .hipers-path-item .path-item-info .path-item-title {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hipers-path-item .path-item-info .path-item-text {
+        font-size: 14px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .infarct-path-items.symptoms .symptoms-title,
+    .infarct-path-items.justdo .symptoms-title,
+    .stroke-path-items.symptoms .stroke-title,
+    .stroke-path-items.signs .stroke-title {
+        font-size: 18px;
+    }
+
+
+    .infarct-path-item .path-item-info .path-item-title,
+    .stroke-path-item .path-item-info .path-item-title {
+        font-size: 18px;
+    }
+
+    .infarct-path-item .path-item-info .path-item-text,
+    .stroke-path-item .path-item-info .path-item-text {
+        font-size: 14px;
+    }
+
+    .stroke-path-items .stroke-path-list {
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .stroke-path-items .stroke-path-list:after {
+        height: 10px;
+        width: 10px;
+    }
+}

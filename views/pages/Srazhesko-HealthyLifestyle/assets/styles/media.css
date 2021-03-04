@@ -1,0 +1,154 @@
+@media screen and (max-width: 1399px) {
+    .content__lifestyle-view {
+        min-height: 690px;
+    }
+
+    .info-content-view .view-lists {
+        height: 160px;
+    }
+
+    .info-content-view .view-lists:after {
+        top: -230px;
+        right: -335px;
+        height: 200px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .info-content-view .view-lists:after {
+        top: -170px;
+        right: -250px;
+        height: 150px;
+        width: 335px;
+    }
+
+    .content__lifestyle-view {
+        min-height: 605px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .content__lifestyle-view {
+        min-height: 480px;
+    }
+
+    .title-p-smoke {
+        font-size: 18px !important;
+    }
+
+    .info-content-view .view-lists:after {
+        top: -150px;
+        right: -200px;
+        height: 135px;
+        width: 290px;
+    }
+    .lifestyle__project .blocks-project-smoke {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lifestyle__project .blocks-project-smoke {
+        justify-content: center;
+    }
+
+    .lifestyle-info-line .line-title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lifestyle-info-description .info-description-upper {
+        font-size: 16px;
+    }
+
+    .info-description-lists .info-description-list {
+        font-size: 14px;
+    }
+
+    .info-description-lists .info-description-list:after {
+        height: 8px;
+        width: 8px;
+    }
+
+    .info-description-card .btn-link {
+        font-size: 16px;
+    }
+
+    .card-body-lists .card-body-list {
+        font-size: 14px;
+    }
+
+    .lifestyle-info-description .lifestyle-info-source {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .lifestyle-info-description .info-download-btn {
+        font-size: 15px;
+        height: 40px;
+        width: 260px;
+    }
+
+    .lifestyle-info-content .info-content-text p {
+        font-size: 14px;
+    }
+
+    .info-content-view {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-content-tail p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .info-content-tail .content-tail-image {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-content-tail .content-tail-image img {
+        height: 100px;
+        width: 100px;
+        margin: 10px auto;
+    }
+
+    .lifestyle-info-description p {
+        font-size: 14px;
+    }
+
+    .info-description-table table, .info-description-table tr, .info-description-table td {
+        font-size: 12px;
+    }
+
+    .info-content-view .view-lists:after {
+        top: -79px;
+        right: -62px;
+        height: 80px;
+        width: 173px;
+    }
+
+    .content__lifestyle-view {
+        min-height: 345px;
+    }
+
+    .info-description-card .btn-link:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .content__lifestyle-view {
+        min-height: 194px;
+    }
+
+    .info-content-view .view-lists:after {
+        display: none;
+    }
+}

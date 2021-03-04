@@ -1,0 +1,370 @@
+@media (max-width: 1600px) {
+    .container-view {
+        max-width: 1270px;
+    }
+
+    .general__content-item.text {
+        height: auto;
+        width: auto;
+        padding: 25px 75px 25px 70px;
+    }
+
+    .project-path-item {
+        max-width: 390px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .general {
+        background-size: cover;
+    }
+
+    .container-view {
+        max-width: 1070px;
+    }
+
+    .nav__menu-link {
+        margin-bottom: 20px;
+    }
+
+    .nav__menu-link a {
+        font-size: 14px;
+    }
+
+    .general__content-item.view:after {
+        left: -18%;
+        width: calc(100% + 42%);
+    }
+
+    .general__content-item.text {
+        padding: 25px 35px 25px 45px;
+    }
+
+    .general .content__upper-desc {
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .nav__menu-links {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .project-path-item {
+        min-height: 460px;
+        max-width: 325px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .container-view {
+        max-width: 950px;
+    }
+
+    .nav__menu-link a {
+        font-size: 13px;
+    }
+
+    .general__contacts {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .item-location {
+        font-size: 20px;
+    }
+
+    .item-phone {
+        font-size: 25px;
+    }
+
+    .general__content-item.text {
+        font-size: 23px;
+        padding: 25px 35px 25px 45px;
+    }
+
+    .content__menu-tabs .content__menu-tab {
+        width: 100%;
+    }
+
+    .project-path-item {
+        min-height: 370px;
+        max-width: 440px;
+    }
+
+    .general__contacts-logo p {
+        max-width: 100%;
+        margin: 5px;
+    }
+
+    .general__contacts-logo .servier-logo {
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .general__contacts-logo .contacts-logo-support {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container-view.main:after {
+        background: url("../img/stetoscope-tablet.png") no-repeat center;
+        height: 540px;
+        width: 321px;
+    }
+
+    .container-view {
+        max-width: 750px;
+    }
+
+    .general__contacts-items {
+        margin-right: 0;
+    }
+
+    .general__contacts-burger {
+        display: block;
+        margin-top: 15px;
+        position: fixed;
+        z-index: 5;
+    }
+
+    .general__nav {
+        display: none;
+    }
+
+
+    .general__contacts-logo p {
+        text-align: center;
+        margin-right: 0;
+        font-size: 13px;
+    }
+
+    .general__contacts-logo img {
+        max-width: 100%;
+    }
+
+    .general__content-item.text:before {
+        bottom: -40px;
+        right: 48px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .content-title-main p {
+        font-size: 36px;
+    }
+
+    .general__contacts-logo img {
+        height: auto;
+        width: auto;
+    }
+
+    .project-path-item {
+        min-height: 425px;
+    }
+
+    .project-path-item .path-item-logo {
+        margin-bottom: 20px;
+        height: 190px;
+    }
+
+    .content__project-title p {
+        font-size: 36px;
+    }
+
+    .project-path-item .path-item-text,
+    .content__project .project-path-desc {
+        text-align: center;
+    }
+
+    .content__project .project-path-body {
+        justify-content: space-evenly;
+    }
+
+    .general__contacts-logo {
+        margin-top: 0;
+    }
+
+    .content__lifestyle-info {
+        margin-bottom: 30px;
+    }
+
+    .cabinet-info-block .info-image {
+        background-size: contain !important;
+        background-position-x: 50% !important;
+    }
+
+    .cabinet-info-block.block-second {
+        flex-direction: column-reverse;
+    }
+
+    .cabinet-director-text p {
+        font-size: 18px;
+    }
+
+    .content__cabinet-director .cabinet-director-text {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .general__contacts-logo {
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container-view.main:after {
+        display: none;
+    }
+
+    .general__contacts-items {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    .content__upper-image {
+        display: none;
+    }
+
+    .general__contacts {
+        padding-bottom: 40px;
+    }
+
+    .general__contacts-desktop {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .general__contacts-logo {
+        width: 100%;
+    }
+
+    .item-location, .item-phone {
+        font-size: 16px;
+    }
+
+    .container-view {
+        max-width: 550px;
+    }
+
+    .general__content-item.view:after {
+        left: -30px;
+        top: -80px;
+        width: calc(100% + 60px);
+    }
+
+    .general__content-item.text {
+        font-size: 17px;
+        padding: 20px;
+    }
+
+    .general .content__upper:after {
+        height: 3px;
+        width: 91%;
+        bottom: 20px;
+        right: 15px;
+    }
+
+    .general .content__upper-desc {
+        font-size: 12px;
+    }
+
+    .burger__menu-links {
+        padding: 0 10px;
+    }
+
+    .content-title-main {
+        margin: 20px 0;
+    }
+
+    .content-title-main p {
+        font-size: 20px;
+    }
+
+    .content__menu-tabs {
+        margin: 0 auto;
+    }
+
+    .content__menu-tabs .content__menu-tab {
+        margin: 10px auto;
+    }
+
+    .content__menu-tabs .content__menu-tab a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .content-download-btn {
+        font-size: 13px;
+    }
+
+    .project-path-item {
+        min-height: auto;
+    }
+
+    .content__project .project-path-body {
+        justify-content: center;
+    }
+
+    .cabinet-info-block .info-image {
+        min-height: 220px;
+    }
+
+    .content__cabinet-director .cabinet-director-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .content__cabinet-director .cabinet-director-text {
+        max-width: 300px;
+    }
+
+    .cabinet-director-text p,
+    .cabinet-info-block .info-text p,
+    .content__cabinet-description {
+        font-size: 14px;
+    }
+
+    .general__contacts-logo .contacts-logo-support {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .container-view {
+        max-width: 320px;
+    }
+
+    .general__contacts-burger {
+        display: flex;
+        margin-top: 15px;
+        justify-content: flex-end;
+    }
+
+    .general__content-item.view:after {
+        left: 0;
+        top: -80px;
+        width: 100%;
+    }
+
+    .general__description:after {
+        left: 15px;
+        height: 15px;
+        width: 15px;
+        top: 0;
+    }
+
+    .general__contacts-item:after {
+        left: -30px;
+        width: 20px;
+        height: 25px;
+    }
+
+}

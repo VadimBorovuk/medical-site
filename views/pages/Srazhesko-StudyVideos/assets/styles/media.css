@@ -1,0 +1,11 @@
+@media screen and (max-width: 991px) {
+    .content__video-view{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .content__video-view {
+        height: 240px;
+    }
+}

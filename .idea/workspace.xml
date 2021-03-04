@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="349acbf2-080d-46b7-93a8-3e8006e22d29" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1iuBgOHfqU5VQlm1B8fq2OveYWi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/pages/Srazhesko-Solutions/assets/img" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\servier\views\pages\Srazhesko-Solutions\assets\img" />
+      <recent name="C:\Users\admin\Desktop\servier\views\pages\Srazhesko-HealthyLifestyle\assets\img" />
+      <recent name="C:\Users\admin\Desktop\main-layout\servier\views\pages\Srazhesko-Cabinet\assets\img" />
+      <recent name="C:\Users\admin\Desktop\main-layout\servier\views\pages" />
+      <recent name="C:\Users\admin\Desktop\main-layout\servier\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\servier\views\pages\Srazhesko-HealthyLifestyle\assets\img" />
+      <recent name="C:\Users\admin\Desktop\main-layout\stomach\views\pages\Srazhesko-Diary\assets\img" />
+      <recent name="C:\Users\admin\Desktop\main-layout\stomach\views\pages\Srazhesko-HealthyLifestyle\assets\img" />
+      <recent name="C:\Users\admin\Desktop\main-layout\stomach\assets\materials\Щоденники" />
+      <recent name="C:\Users\admin\Desktop\main-layout\stomach\assets\materials\Знаємо про супутні стани" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stomach/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="349acbf2-080d-46b7-93a8-3e8006e22d29" name="Default Changelist" comment="" />
+      <created>1602747711778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602747711778</updated>
+      <workItem from="1602747713131" duration="24870000" />
+      <workItem from="1602839903978" duration="120000" />
+      <workItem from="1603205353967" duration="4092000" />
+      <workItem from="1603264655430" duration="1741000" />
+      <workItem from="1603266713878" duration="25611000" />
+      <workItem from="1603310917573" duration="6344000" />
+      <workItem from="1603351908420" duration="24053000" />
+      <workItem from="1603380259588" duration="297000" />
+      <workItem from="1603381004228" duration="29788000" />
+      <workItem from="1603699935817" duration="39059000" />
+      <workItem from="1603809706818" duration="5972000" />
+      <workItem from="1603986913307" duration="9120000" />
+      <workItem from="1604057321781" duration="15946000" />
+      <workItem from="1604076285703" duration="2176000" />
+      <workItem from="1604309155582" duration="5404000" />
+      <workItem from="1604320984296" duration="1848000" />
+      <workItem from="1604326577701" duration="687000" />
+      <workItem from="1604328954037" duration="2024000" />
+      <workItem from="1604651757905" duration="28225000" />
+      <workItem from="1604927485177" duration="691000" />
+      <workItem from="1604928470674" duration="64000" />
+      <workItem from="1604928704373" duration="12252000" />
+      <workItem from="1604996865235" duration="682000" />
+      <workItem from="1605007375750" duration="2622000" />
+      <workItem from="1605104845873" duration="1721000" />
+      <workItem from="1605107348925" duration="547000" />
+      <workItem from="1605108559089" duration="541000" />
+      <workItem from="1605110065536" duration="6652000" />
+      <workItem from="1605175258768" duration="4705000" />
+      <workItem from="1605184667320" duration="1947000" />
+      <workItem from="1605712823067" duration="1288000" />
+      <workItem from="1607522846114" duration="6611000" />
+      <workItem from="1610628401336" duration="7022000" />
+      <workItem from="1610639925197" duration="45000" />
+      <workItem from="1610793489692" duration="2481000" />
+      <workItem from="1610811442506" duration="9452000" />
+      <workItem from="1611666722125" duration="882000" />
+      <workItem from="1611668637552" duration="7088000" />
+      <workItem from="1614859431271" duration="6133000" />
+      <workItem from="1614866107414" duration="303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2056" y="-44" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614865601685">
+      <screen x="1366" y="-311" width="1920" height="1040" />
+    </state>
+    <state x="2056" y="-44" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.-311.1920.1040/0.0.1366.728@1366.-311.1920.1040" timestamp="1614865601685" />
+    <state x="1827" y="-146" key="SettingsEditor" timestamp="1607522934250">
+      <screen x="1366" y="-311" width="1920" height="1040" />
+    </state>
+    <state x="1827" y="-146" key="SettingsEditor/1366.-311.1920.1040/0.0.1366.728@1366.-311.1920.1040" timestamp="1607522934250" />
+    <state x="1661" y="-237" width="1546" height="923" key="find.popup" timestamp="1614865190755">
+      <screen x="1366" y="-311" width="1920" height="1040" />
+    </state>
+    <state x="1661" y="-237" width="1546" height="923" key="find.popup/1366.-311.1920.1040/0.0.1366.728@1366.-311.1920.1040" timestamp="1614865190755" />
+    <state x="1897" y="-102" width="840" height="858" key="run.anything.popup" timestamp="1610960575364">
+      <screen x="1366" y="-311" width="1920" height="1040" />
+    </state>
+    <state x="1897" y="-102" width="840" height="858" key="run.anything.popup/1366.-311.1920.1040/0.0.1366.728@1366.-311.1920.1040" timestamp="1610960575364" />
+  </component>
+</project>

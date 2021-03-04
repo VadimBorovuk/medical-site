@@ -1,0 +1,276 @@
+.diary-page .general__nav {
+    padding-bottom: 0;
+}
+
+.content__diary {
+    padding: 30px 0;
+}
+
+.content__diary-info {
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+.content-title-main .diary-text {
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/*table for diary*/
+
+.content__diary-info table,
+.content__diary-info th,
+.content__diary-info tr,
+.content__diary-info td {
+    border: 2px solid var(--mainContent);
+}
+
+.content__diary-info th {
+    text-align: center;
+    font-weight: bold;
+    color: var(--mainContent);
+    font-size: 18px;
+}
+
+.content__diary-info tr {
+    height: 50px;
+    transition: all .3s ease-in-out;
+}
+
+
+.content__diary-info td {
+    font-size: 16px;
+}
+
+
+.content__diary-info tr.active-zone {
+    background: #fff;
+}
+
+.content__diary-info td {
+    font-size: 16px;
+    text-align: center;
+}
+
+.content__diary-info td:first-child {
+    padding-left: 10px;
+    text-align: left;
+}
+
+
+/*footer*/
+.diary-footer-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.diary-footer-items .item-logo {
+    text-align: center;
+}
+
+.diary-footer-item {
+    font-size: 13px;
+}
+
+.diary-footer-item .item-logo {
+    text-align: center;
+}
+
+.footer-item-contacts .item-logo,
+.footer-item-contacts .item-logo img {
+    width: 100%;
+}
+
+.diary-footer-item .footer-item-title {
+    margin-bottom: 15px;
+}
+
+
+.diary-footer-item .footer-item-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/*High*/
+.content__pressure .afterBox {
+    position: relative;
+}
+
+.content__pressure .content__pressure-image{
+    background: url("../img/about-pre.jpg")no-repeat center;
+    background-size: cover;
+    min-height: 980px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content__pressure .afterBox:after {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: var(--mainContent);
+    top: 7px;
+    left: -20px;
+}
+
+
+.content__pressure-upper .pressure-upper-lists {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.pressure-upper-lists .pressure-upper-list {
+    font-size: 18px;
+}
+
+.content__pressure-info .pressure-info-important {
+    width: 100%;
+}
+
+.pressure-info-important .info-important-line {
+    background-color: var(--mainContent);
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0 15px;
+    display: flex;
+}
+
+.info-important-line .line-title span {
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.pressure-info-important .info-important-lists {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.pressure-info-important .info-important-list {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.pressure-info-important .info-important-desc {
+    font-size: 13px;
+}
+
+.pressure-info-table {
+    margin-top: 40px;
+}
+
+.info-table-body .table-body-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-table-body .table-body-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*table for pressure*/
+
+.info-table-body .table-body-view {
+    margin: 20px 0;
+}
+
+.table-body-view table,
+.table-body-view th,
+.table-body-view tr,
+.table-body-view td {
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.table-body-view td,
+.table-body-view tr {
+    padding-top: 10px;
+}
+
+.table-body-view .table-field-title {
+    background: #4e4d4d;
+    color: #ffffff;
+    vertical-align: bottom;
+
+}
+
+.table-body-view table .table-field-title {
+    height: 120px;
+}
+
+.table-body-view .table-field-text.optimal {
+    background: #0ee00e;
+    color: #000000;
+}
+
+.table-body-view .table-field-text.normal {
+    background: #dede0e;
+    color: #000000;
+}
+
+.table-body-view .table-field-text.high {
+    background: #e3960b;
+    color: #000000;
+}
+
+.table-body-view .table-field-text.hiper {
+    background: #ec0808;
+    color: #ffffff;
+}
+
+.info-table-body .table-body-desc {
+    font-size: 16px;
+}
+
+.content__pressure-info .pressure-info-high {
+    margin-top: 30px;
+}
+
+.pressure-info-high .info-high-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pressure-info-high .info-high-lists {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.pressure-info-high .info-high-list {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.content__pressure-info .pressure-info-link {
+    padding: 0 5px;
+    text-decoration: none;
+    border-bottom: 2px solid var(--mainContent);
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--mainContent);
+    box-shadow: inset 0 -0.02em 0 var(--mainContent);
+    transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1), color 270ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.content__pressure-info .pressure-info-link:hover {
+    box-shadow: inset 0 -1.125em 0 var(--mainContent);
+    color: #fff;
+}

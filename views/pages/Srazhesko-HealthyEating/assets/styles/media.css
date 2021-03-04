@@ -1,0 +1,68 @@
+@media screen and (max-width: 1399px) {
+    .content__healthy-info:after {
+        background: url("../img/table-tablet.png") no-repeat center;
+        background-size: cover;
+        width: 550px;
+        height: 550px;
+    }
+}
+@media screen and (max-width: 1199px) {
+
+    .content__healthy-footer br {
+        display: none;
+    }
+
+    .healthy-footer-item.healthy-first {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .content__healthy-info:after {
+        display: none;
+    }
+
+    .general .content__upper-desc {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .healthy-path-schema .path-schema-item {
+        text-align: center;
+    }
+
+    .healthy-path-item .path-item-logo {
+        margin-bottom: 20px;
+    }
+
+    .healthy-path-item .path-item-info {
+        text-align: center;
+    }
+    .footer-item-contacts .item-logo {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .indexes-footer-item.indexes-last .item-logo {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .path-schema-item .schema-item-title {
+        font-size: 22px;
+    }
+
+    .path-schema-item .schema-item-text {
+        font-size: 18px;
+    }
+
+    .content__healthy-footer {
+        width: 100%;
+    }
+
+    .healthy-footer-item span {
+        display: block;
+    }
+}

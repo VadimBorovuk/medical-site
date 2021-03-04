@@ -1,0 +1,261 @@
+.solutions-page .general__nav {
+    padding-bottom: 0;
+}
+
+.content__solutions-title {
+    max-width: 540px;
+    margin-bottom: 30px;
+}
+
+.content__solutions-title p:first-child {
+    text-align: left;
+}
+
+.content__solutions-title p:last-child {
+    text-align: right;
+}
+
+/*content__solutions-items*/
+
+.content__solutions-items {
+    width: 100%;
+    padding-top: 175px;
+}
+
+.content__solutions-item {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.content__solutions-item.mybp-view{
+    margin-bottom: 110px;
+}
+
+.content__solutions-item .solutions-item-body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 65px;
+    box-shadow: 5px 5px 10px 2px #639284;
+    background: rgba(255, 255, 255, .6);
+    padding: 40px;
+    position: relative;
+}
+
+.solutions-item-body .item-body-qr img {
+    width: 100%;
+}
+
+/*.content__solutions-item.angina--view:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    width: 55%;*/
+/*    transform: translateY(-50%);*/
+/*    right: -20%;*/
+/*    height: 85px;*/
+/*    background: url("../img/pulse.png");*/
+/*}*/
+
+.content__solutions-item.diabets-view .solutions-item-body:before {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background: rgba(121, 210, 215, .5);
+    bottom: 120px;
+    left: -125px;
+}
+
+.content__solutions-item.diabets-view .solutions-item-body:after {
+    content: "";
+    position: absolute;
+    height: 135px;
+    width: 135px;
+    background: rgba(121, 210, 215, .4);
+    top: 50%;
+    transform: translateY(-50%);
+    right: -60%;
+}
+
+.solutions-item-body .item-body-links {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.item-body-links .item-body-logo {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto 90px;
+}
+
+.item-body-links .item-body-logo.angina {
+    background: url("../img/angina-logo.png") no-repeat center;
+    background-size: cover;
+}
+
+.item-body-links .item-body-logo.mybp {
+    background: url("../img/myBp-logo2.png") no-repeat center;
+    background-size: cover;
+}
+
+.item-body-links .item-body-logo.diabets {
+    background: url("../img/diabets-logo.png") no-repeat center;
+    background-size: cover;
+}
+
+.item-body-links .item-body-download {
+    font-size: 18px;
+    color: var(--mainContent);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--mainContent);
+}
+
+.item-body-links .item-body-link {
+    display: flex;
+    margin: 12px 0;
+}
+
+.item-body-links .item-body-link img {
+    width: 100%;
+}
+
+.item-body-content {
+    width: 100%;
+    z-index: 1;
+}
+
+.body-content-info .item-body-title {
+    font-size: 33px;
+    color: var(--mainContent);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.body-content-info .item-body-desc {
+    margin: 8px 0 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.body-content-info .item-body-text {
+    font-size: 16px;
+}
+
+.item-body-text .item-body-lists {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.body-content-info .item-body-text p {
+    margin-bottom: 20px;
+}
+
+
+.body-content-more .body-content-view {
+    width: 504px;
+    height: 300px;
+}
+.body-content-more .body-content-view iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.body-content-more .body-content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to right, #8cdffb 30%, #167ec0 90%);
+    font-size: 17px;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.content__solutions-item .solutions-item-mobile {
+    margin-left: auto;
+    height: 390px;
+    width: 390px;
+    background: linear-gradient(to top, #6fccde 30%, #79d3d8 90%);
+    position: relative;
+}
+
+.content__solutions-item .solutions-item-mobile:after {
+    content: "";
+    position: absolute;
+    bottom: 50px;
+    right: -15px;
+    height: 648px;
+    width: 346px;
+}
+
+.mybp-view .solutions-item-mobile:after{
+    background: url("../img/mobile-original-1.png") no-repeat center;
+}
+.angina--view .solutions-item-mobile:after{
+    background: url("../img/mobile-original-3.png") no-repeat center;
+}
+
+.solutions-item-mobile .item-square {
+    position: absolute;
+    left: -80px;
+    top: -80px;
+    width: 160px;
+    height: 160px;
+    background: rgba(119, 208, 212, .5);
+}
+
+.solutions-item-mobile .item-square:after {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 45px;
+    width: 45px;
+    background-color: #6fb3c7;
+}
+
+
+
+
+/*da*/
+.solutions-footer-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.solutions-footer-item {
+    font-size: 14px;
+}
+
+.solutions-footer-item .item-logo {
+    text-align: center;
+}
+
+.footer-item-contacts .item-logo,
+.footer-item-contacts .item-logo img {
+    width: 100%;
+}
+
+.solutions-footer-item .footer-item-title {
+    margin-bottom: 15px;
+}
+
+.solutions-footer-item .footer-item-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
